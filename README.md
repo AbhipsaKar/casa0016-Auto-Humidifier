@@ -12,14 +12,16 @@ Connect a small power drawing ultrasonic atomiser to the humidity sensor and con
 ## Components used for the sensor network
 <ul>
   <li>Arduino UNO board</li>
-  <li>DHT sensor to measure the humidity level(DHT22)</li>
-  <li>5V 300mA Mister/Atomiser/Humidifier module</li>
-  <li>DC motor – to repurpose as a fan to disperse the mist</li>
-  <li>PIR sensor</li>
-  <li>Moisture sensor</li>
   <li>Red LED</li>
   <li>5V battery</li>
   <li>Transistors to amplify the current output-BC547 and BC548</li>
+  Sensors:
+  <li>DHT sensor to measure the humidity level(DHT22)</li>
+  <li>PIR sensor</li>
+  <li>Moisture sensor</li>
+  Actuators:
+  <li>5V 300mA Mister/Atomiser/Humidifier module</li>
+  <li>DC motor – to repurpose as a fan to disperse the mist</li>
 </ul>
 
 ## Circuit diagram
