@@ -57,6 +57,7 @@ To complete the components to be used in the circuit,
 1. I created the blades for my DC motor fan from cardboard cutouts.
 2. The mister(atomiser) module contained a USB input jack but no serial pins. Hence, I soldered the positive, negative pins below the USB supply for serial input.
 
+
 Attached below is a picture of the circuit and the cardboard prototype which did not have moisture sensor. Also, I tried to power the 300mA atomiser module through a transistor.
 ![IMG_20211206_231819](https://user-images.githubusercontent.com/91799774/145641174-4b67e08a-c1c0-4676-a36e-7155655619d4.jpg)
 ![image](https://user-images.githubusercontent.com/91799774/145641221-0a01fbc6-edaa-4104-a3ae-f050fa126c88.png)
@@ -70,7 +71,12 @@ With this initial design, the following design flaws became apparent:
 
 ## Second iteration
 A 5V supply was added with the atomiser module. 
-A 3D printed box was created with a slot for the DC motor.
+A 3D printed box was created with a column for the DC motor. Also attached with the github project is the fbx file created on Fusion 360 which was used for 3D printing.
+(AutoHumid v13.fbx)
+
+Below is a hand drawn sketch of the prototype and the measurements for all components.
+![image](https://user-images.githubusercontent.com/91799774/145987237-25f2ae36-0d83-4bcd-b5f8-d1dc9a87e6e5.png)
+
 To measure the level of water, I used the soil moisture sensor used in the Plant monitor project(Ref: https://github.com/AbhipsaKar/casa0014/blob/main/Plant%20Monitor/README.md). If the moisture level drops, the red LED is switched on to signal a refill.
 Additionally, I curved the blades of the DC motor to streamline the flow the air so that the mist is dispersed properly.
 With the new design, the mister module now works at a full capacity and the DC motor is steadfast in its socket.
