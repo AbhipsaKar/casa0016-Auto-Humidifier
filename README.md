@@ -12,17 +12,29 @@ Connect a small power drawing ultrasonic atomiser to the humidity sensor and con
 ## Components used for the sensor network
 <ul>
   <li>Arduino UNO board</li>
-  <li>DHT sensor to measure the humidity level</li>
-  <li>5V Humidifier module</li>
+  <li>DHT sensor to measure the humidity level(DHT22)</li>
+  <li>5V 300mA Mister/Atomiser/Humidifier module</li>
   <li>DC motor – to repurpose as a fan to disperse the mist</li>
   <li>PIR sensor</li>
   <li>Moisture sensor</li>
   <li>Red LED</li>
   <li>5V battery</li>
+  <li>Transistors to amplify the current output-BC547 and BC548</li>
 </ul>
 
 ## Circuit diagram
 ![Engineering](https://user-images.githubusercontent.com/91799774/145638139-87c108ed-cdf4-4b8b-83be-5279f4f97933.jpg "Made from website https://cloud.smartdraw.com/editor.aspx")
+
+### Used the below resources to come up with the final circuit diagram.
+1. To understand the placement of load with a NPN transistor and diode to increase the current output and avoid backflow of current -http://www.14core.com/wiring-mosfet-to-arduino-and-driving-bigger-loads/
+2. To check the pinout diagram for BC547 and BC548 transistor - https://projectiot123.com/2020/01/31/bc547-transistor/
+3. To understand the circuit when a load is connected to an external power source(battery) through a transistor - https://www.instructables.com/Arduino-How-to-Use-a-Servo-Motor-With-an-External-/
+
+### Quick circuit testing techniques I used and learnt:
+1. Use Variac to test the optimum current and voltage input of a device.(used this to check the current drawn by mister module to work at full capacity)
+2. use the alarm mode of multimeter to check for broken connections. (used this to check for the direction of current flow on the big breadboard)
+3. Use the multimeter(voltage setting) to find the positive and negative solder points on the back of the circuit board( used this to find serial pins below the USB port on the mister module)
+
 
 ## Operation logic
 
@@ -72,5 +84,6 @@ Given below are images of the improved system:
 ## Still more to do
 <ul>
   <li>The outer case needs a transparent dome to hide the remaining wires and mister module.</li>
-  <li>It is required to check how the rusting of the nails and the mister module can be stopped in this system </li>
+  <li>It is required to check how the rusting of the nails and the mister module can be stopped in this system. Maybe use switches to block the electrical connections </li>
+  <li>Solder the open connections to a PCB and reduce the overall size of the system</li>
 </ul>
