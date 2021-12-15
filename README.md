@@ -89,6 +89,10 @@ Given below are images of the improved system:
 ![Screenshot_20211210-213102](https://user-images.githubusercontent.com/91799774/145645159-151591cc-26fd-421e-83a0-e5656d90341e.jpg)
 ![Screenshot_20211210-213113](https://user-images.githubusercontent.com/91799774/145645266-35494ffe-eeb2-4e87-91a1-e3f7cb7f5eb0.jpg)
 
+Video:
+
+![2021-12-15_01_03_53](https://user-images.githubusercontent.com/91799774/146105057-a3a00d5d-666d-40a5-8ad4-736c3c8a6ba9.gif)
+
 ## Still more to do
 <ul>
   <li>The outer case needs a transparent dome to hide the remaining wires and mister module.</li>
