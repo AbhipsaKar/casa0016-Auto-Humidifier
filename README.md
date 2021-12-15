@@ -1,7 +1,7 @@
 # casa0016-Auto-Humidifier
 
 ## Motivation
-Humidifiers provide an easy solution for the dry air problems. However, most of them need manual intervention to be turned on and off. Alternatively, keeping it on all day would result in energy wastage. Also, it would mean the user would have to refill the water source more often.
+The humidity level in the air should ideally be 50%. However, the indoor air falls below this threshold due to absence of ventilation and heater operation. Humidifiers provide an easy solution for the dry air problems. However, most of them need manual intervention to be turned on and off. Alternatively, keeping it on all day would result in energy wastage. Also, it would mean the user would have to refill the water source more often.
 
 In comparison, a better solution is to trigger the humidifier only when the humidity level decreases in the room. 
 In this way, the humidifier runs in a controlled manner using only as much electricity and water as required.
