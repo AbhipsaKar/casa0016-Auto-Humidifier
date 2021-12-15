@@ -98,4 +98,5 @@ Video:
   <li>The outer case needs a transparent dome to hide the remaining wires and mister module.</li>
   <li>It is required to check how the rusting of the nails and the mister module can be stopped in this system. Maybe use switches to block the electrical connections </li>
   <li>Solder the open connections to a PCB and reduce the overall size of the system</li>
+  <li>Separate the water trough and underlying circuit to avoid splashing</li>
 </ul>
