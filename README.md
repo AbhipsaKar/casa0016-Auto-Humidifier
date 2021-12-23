@@ -1,20 +1,21 @@
 # casa0016-Auto-Humidifier
 
 ## Motivation
-The humidity level in the air should ideally be 50%. However, the indoor air falls below this threshold due to absence of ventilation and heater operation. Humidifiers provide an easy solution for the dry air problems. However, most of them need manual intervention to be turned on and off. Alternatively, keeping it on all day would result in energy wastage. Also, it would mean the user would have to refill the water source more often.
+The humidity level in the air should ideally be 50%. However, the indoor air often falls below this threshold due to absence of ventilation and heater operation. Humidifiers provide an easy solution for the dry air problems. However, most of them need manual intervention to be turned on and off. Alternatively, keeping it on all day would result in energy wastage. Also, it would mean the user would have to refill the water source more often.
 
 In comparison, a better solution is to trigger the humidifier only when the humidity level decreases in the room. 
 In this way, the humidifier runs in a controlled manner using only as much electricity and water as required.
 
 ## Goal
-Connect a small power drawing ultrasonic atomiser to the humidity sensor and control the atomiser based on the current humidity levels.
+Connect an ultrasonic atomiser to the humidity sensor and control the atomiser based on the current humidity levels.
 
 ## Components used for the sensor network
 <ul>
   <li>Arduino UNO board</li>
   <li>Red LED</li>
   <li>5V battery</li>
-  <li>Transistors to amplify the current output-BC547 and BC548</li>
+  <li>Diode</li>
+  <li>Transistors to amplify the current output/act as switches-BC547 and BC548</li>
   Sensors:
   <li>DHT sensor to measure the humidity level(DHT22)</li>
   <li>PIR sensor</li>
